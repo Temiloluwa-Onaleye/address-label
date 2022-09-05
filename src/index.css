@@ -1,13 +1,21 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.envelope{
+    display: flex;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.toPerson{
+    display: flex;
+   
+}
+
+ .stamp {
+    margin-left: 40em;
+    display: flex;
+    justify-content: center;
+    border: 1px solid gray;
+    height: 100px;
+    width: 100px;
+}
+.forPerson{
+    margin-top: 25rem;
+    margin-left: 5em;
 }
